@@ -1,7 +1,9 @@
 # 修改部分
+
 1、将DILI索引的源码添加到/src/competitor下，在/src/competitor/DILI下添加dili.h添加接口部分。
 
 2、修改/src/competitor/competitor.h代码，添加dili的类型
+
 # GRE
 GRE is a benchmark suite for learned indexes and traditional indexes to measure throughput and latency with custom workload (read / write ratio) and any dataset. GRE quantifies datasets using local and global hardness, and includes a synthetic data generator to generate data with various hardness.
 
