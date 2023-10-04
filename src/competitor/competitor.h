@@ -72,6 +72,9 @@ indexInterface<KEY_TYPE, PAYLOAD_TYPE> *get_index(std::string index_type) {
   else if (index_type == "finedex") {
     index = new finedexInterface<KEY_TYPE, PAYLOAD_TYPE>;
   }
+  else if (index_type == "dili") {
+    index = new diliInterface<KEY_TYPE, PAYLOAD_TYPE>;
+  }
   else {
     std::cout << "Could not find a matching index called " << index_type << ".\n";
     exit(0);
